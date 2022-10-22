@@ -34,4 +34,8 @@ module.exports = withNextra({
 
 		return config;
 	},
+  images: {
+		domains: ["avatars.githubusercontent.com"],
+		unoptimized: true
+	}
 });
