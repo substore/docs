@@ -1,19 +1,19 @@
-import React from 'react';
-import Document, {Html, Head, Main, NextScript} from 'next/document';
-import {SkipNavLink} from '@reach/skip-nav';
+import React from "react";
+import Document, {Html, Head, Main, NextScript} from "next/document";
+import {SkipNavLink} from "@reach/skip-nav";
 
 export default class SubstoreDocs extends Document {
-	render() {
-		return (
-			<Html lang="en">
-				<Head />
+  render() {
+    return (
+      <Html lang="en">
+        <Head />
 
-				<body>
-					<SkipNavLink />
-					<Main />
-					<NextScript />
-				</body>
-			</Html>
-		);
-	}
+        <body>
+          <SkipNavLink />
+          <Main />
+          <NextScript />
+        </body>
+      </Html>
+    );
+  }
 }
