@@ -56,7 +56,7 @@ const config = {
 				<meta httpEquiv="Content-Language" content="en" />
 				<meta
 					name="description"
-					content={meta.description || 'Substore = The data store platform built from the ground up'}}
+					content={meta.description || 'Substore = The data store platform built from the ground up'}
 				/>
 				<meta
 					name="og:description"
