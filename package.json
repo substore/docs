@@ -11,7 +11,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@reach/skip-nav": "^0.17.0",
+    "@reach/skip-nav": "^0.18.0",
     "@svgr/webpack": "^6.5.0",
     "clsx": "^1.2.1",
     "next": "^12.3.1",
